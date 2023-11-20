@@ -1,0 +1,14 @@
+.productos__contenedor{
+    display: flex;
+    background: var(--color-6);
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+@media (max-width: 575.98px) {
+    main{
+        height: 100vh;
+    }
+  }

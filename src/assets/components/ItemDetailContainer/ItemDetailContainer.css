@@ -1,0 +1,6 @@
+.itemdetail__container{
+    background: var(--color-7);
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}

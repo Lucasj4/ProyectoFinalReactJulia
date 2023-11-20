@@ -1,0 +1,111 @@
+.form__contenedor{
+    background: var(--color-7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    background-color: var(--color-5);
+    margin-top: 20px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 450px;
+}
+
+.form__item label{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: 700;
+ 
+}
+
+.form__item input{
+ padding: 5px 15px;
+ outline: none;
+ border: none;
+ background: var(--color-3);
+ font-family: 'Lato', sans-serif;
+ color: var(--color-white);
+ font-size: 1.5rem;
+ border-radius: 10px;
+}
+
+.form__button{
+    width: 60%;
+    padding: 10px 15px;
+    outline: none;
+    background: var(--color-lime-green);
+    border: 1px solid var(--color-lime-green);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: var(--color-white);
+    font-size: 1.5rem;
+}
+
+.form__productos{
+    color: var(--color-lime-green);
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    display: flex;
+}
+
+.form__title{
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.compra{
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+    .form{
+        width: 70%;
+    }
+    .form__item{
+        width: 100%;
+    }
+    .form__item label{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    .form__item input{
+        padding: 5px 10px;
+        outline: none;
+        border: none;
+        background: var(--color-3);
+        font-family: 'Lato', sans-serif;
+        color: var(--color-white);
+        font-size: 1.1rem;
+        border-radius: 10px;
+       }
+
+       .form__button{
+        width: 60%;
+        padding: 5px 10px;
+      
+        font-size: 1rem;
+    }
+    .form__productos p{
+        font-size: 1rem;
+    }
+
+  }
+

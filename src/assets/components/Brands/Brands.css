@@ -1,0 +1,62 @@
+:root {
+    --color-black: #000000;
+    --color-dark-red: #800000;
+    --color-electric-blue: #007BFF;
+    --color-lime-green: #00FF00;
+    --color-white: #FFFFFF;
+  }
+.brands{
+    background: var(--color-white);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.brands img{
+    height: 150px;
+   
+}
+
+.brands img:hover{
+    height: 150px;
+   background: var(--color-dark-red);
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .brands img{
+        height: 100px;
+    }
+    .brands img:hover{
+        height: 100px;
+      
+    }
+    .brands{
+        height: 100px;
+    }
+ 
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .brands{
+        height: auto;
+    }
+    .brands img{
+        height: 100px;
+    }
+    .brands img:hover{
+        height: 100px;
+      
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .brands img{
+        height: 60px;
+        
+    }
+    .brands img:hover{
+        height: 60px;
+      
+    }
+  }
