@@ -1,39 +1,59 @@
-#CoderGamer
-Este es un proyecto de ecommerce básico que se utiliza para el curso de React. La aplicación permite ver una lista de productos sobre el universo creado por Tolkien y realizar compras en línea. Los usuarios, productos y las órdenes de compra se almacenan en Firebase.
+🧙‍♂️ CoderGamer
+E-commerce básico desarrollado para el curso de React.
+Esta aplicación permite explorar productos inspirados en el universo de Tolkien y realizar compras en línea. Todos los usuarios, productos y órdenes de compra se almacenan en Firebase.
+
+🚀 Tecnologías Utilizadas
+
+⚡ Vite
+
+⚛️ React
+
+🔀 React Router
+
+🔥 Firebase (Firestore)
+
+🛒 Funcionalidades
+
+✅ Ver una lista de productos disponibles
+
+🛒 Agregar productos al carrito
+
+🧾 Ver el contenido del carrito de compras
+
+📦 Finalizar la compra generando una orden
+
+⚙️ Instalación
+
+Para instalar y ejecutar la aplicación localmente:
+
+Cloná este repositorio:
+
+git clone https://github.com/Lucasj4/ProyectoFinalReactJulia.git
+
+cd CoderGamer
+
+Instalá las dependencias:
+
+npm install
+
+Iniciá la aplicación:
+
+npm run dev
+
+Abrí tu navegador y navegá a http://localhost:5173
 
 
-##Tecnologías utilizadas
--Vite
--React
--React Router
--Firebase
+📦 Plugins oficiales de Vite
 
-##Funcionalidades
--Ver una lista de productos disponibles
--Agregar productos al carrito de compras
--Ver el carrito de compras
--Realizar una orden de compra
-    
-##Instalacion
-###Para instalar y ejecutar la aplicación en tu máquina local, sigue los siguientes pasos:
-1.Clona el repositorio a tu máquina local.
-2.Abre una terminal en el directorio del proyecto.
-3.Ejecuta el comando npm install para instalar las dependencias.
-4.Ejecuta el comando npm run dev para iniciar la aplicación.
-5.Abre tu navegador y navega a http://localhost:5173 para ver la aplicación en acción.
+Actualmente, hay dos plugins oficiales disponibles para integrar React con Vite:
 
-##Configuracion Firebase
-1.Crea una cuenta en Firebase y crea un nuevo proyecto.
-2.En la sección "Authentication" de Firebase, habilita el proveedor de 3. autenticación de correo electrónico y contraseña.
-3.En la sección "Firestore" de Firebase, crea una nueva base de datos y configura las reglas de seguridad para permitir lectura/escritura solamente a usuarios autenticados.
-4.En la sección "Project settings" de Firebase, haz clic en "Add app" y sigue las instrucciones para agregar una nueva aplicación web.
-5.Copia las credenciales de Firebase y configura las variables de entorno en el archivo .env de tu proyecto.
+@vitejs/plugin-react: Usa Babel para Fast Refresh.
 
-#Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información.
+@vitejs/plugin-react-swc: Usa SWC para Fast Refresh con mejor rendimiento.
 
+📄 Licencia
 
-Currently, two official plugins are available:
+Este proyecto está licenciado bajo la Licencia MIT.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Consultá el archivo LICENSE para más información.
+
