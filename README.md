@@ -1,59 +1,55 @@
-🧙‍♂️ CoderGamer
-E-commerce básico desarrollado para el curso de React.
-Esta aplicación permite explorar productos inspirados en el universo de Tolkien y realizar compras en línea. Todos los usuarios, productos y órdenes de compra se almacenan en Firebase.
+# 🧙‍♂️ CoderGamer
 
-🚀 Tecnologías Utilizadas
+**E-commerce inspirado en el universo de Tolkien**, desarrollado como proyecto final para el curso de React.
 
-⚡ Vite
+Permite explorar productos, agregarlos al carrito y generar órdenes de compra. Toda la información (usuarios, productos y órdenes) se gestiona mediante Firebase.
 
-⚛️ React
+---
 
-🔀 React Router
+## 🚀 Acceso a la Aplicación
 
-🔥 Firebase (Firestore)
+🔗 **URL de producción (Vercel):**  
+👉 [https://proyecto-final-react-julia.vercel.app/](https://proyecto-final-react-julia.vercel.app/)
 
-🛒 Funcionalidades
+> ⚡ No es necesario clonar el proyecto ni instalar dependencias para ver la demo en línea.
 
-✅ Ver una lista de productos disponibles
+---
 
-🛒 Agregar productos al carrito
+## 🧰 Tecnologías Utilizadas
 
-🧾 Ver el contenido del carrito de compras
+- ⚡ **Vite** – Bundler rápido para desarrollo
+- ⚛️ **React** – Librería para construir la interfaz de usuario
+- 🔀 **React Router** – Navegación entre vistas
+- 🔥 **Firebase (Firestore)** – Base de datos en tiempo real
 
-📦 Finalizar la compra generando una orden
+---
 
-⚙️ Instalación
+## 🛒 Funcionalidades
 
-Para instalar y ejecutar la aplicación localmente:
+✅ Ver una lista de productos disponibles  
+🛒 Agregar productos al carrito  
+🧾 Visualizar el contenido del carrito  
+📦 Finalizar la compra y generar una orden en Firestore
 
-Cloná este repositorio:
+---
 
-git clone https://github.com/Lucasj4/ProyectoFinalReactJulia.git
+## ⚙️ Para desarrolladores: instalación local (opcional)
 
-cd CoderGamer
+Si querés correr el proyecto localmente:
 
-Instalá las dependencias:
+1. Cloná el repositorio:
 
+   ```bash
+   git clone https://github.com/Lucasj4/ProyectoFinalReactJulia.git
+   cd ProyectoFinalReactJulia
+
+2. Instalá las dependencias:
+   
 npm install
 
-Iniciá la aplicación:
+3. Iniciá la aplicación:
 
 npm run dev
 
-Abrí tu navegador y navegá a http://localhost:5173
-
-
-📦 Plugins oficiales de Vite
-
-Actualmente, hay dos plugins oficiales disponibles para integrar React con Vite:
-
-@vitejs/plugin-react: Usa Babel para Fast Refresh.
-
-@vitejs/plugin-react-swc: Usa SWC para Fast Refresh con mejor rendimiento.
-
-📄 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT.
-
-Consultá el archivo LICENSE para más información.
+4. Abrí tu navegador en http://localhost:5173
 
